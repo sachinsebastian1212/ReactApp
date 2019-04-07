@@ -1,0 +1,151 @@
+div.form1 {
+    min-height: 30px;
+    border: 2px solid red;
+}
+
+div.form1 h3 {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    width: 200px;
+    text-align: center;
+    border: 2px solid brown;
+    border-radius: 25%;
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.3);
+    /* text-decoration: underline; */
+}
+
+div.form1 button.btn_delete {
+    position: absolute;
+    right: -15px;
+    top: -10px;
+}
+
+div.form1 .btn_new{
+    position: absolute;
+    bottom: -10px;
+    left:10px;
+}
+
+div.form1 ol {
+    position: relative;
+    display: inline-block;
+    padding: 20px 0px 0px 20px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    border: 1px ridge grey;
+    border-radius: 2%;
+}
+
+div.form1 li {
+    padding-bottom: 15px;
+    /* background-color: burlywood;
+    border: 2px solid palevioletred;
+    border-radius: 5%; */
+}
+
+div.form1 ol.questSets {
+    margin: 20px;
+}
+
+div.form1 ol.questSets>li {
+    margin-right: 25px;
+}
+
+/* div.form1 ol.quest{
+    
+} */
+
+ol.questset {}
+
+ol.questset>li {
+    display: inline-block;
+    padding: 0px 20px;
+    /* border:2px solid red; */
+}
+
+ol.quest>li {
+    display: block;
+    padding: 0px 20px;
+    width: 320px;
+    float: left;
+    /* border: 3px solid brown; */
+}
+
+ol.quest>li:last-child {
+    border: none;
+    clear:both;
+}
+
+
+ol.objectivelists> li {
+
+    display: block;
+    float: left;
+}
+
+ol.objectives li ol {
+    padding: 0;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+    /* border: 2px solid blueviolet; */
+}
+
+.focus {
+    box-shadow: 0 0 300px 10px black;
+}
+
+input, select {
+    /* min-width: 40%; */
+    /* -ms-box-sizing:content-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; */
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .modal ol {
+    position: relative;
+    display: inline-block;
+    padding: 20px 0px 0px 20px;
+    margin-top: 20px;
+    background-color: blanchedalmond;
+    border: 1px ridge grey;
+    border-radius: 2%;
+}
+
+.modal li {
+    padding-bottom: 15px;
+    /* background-color: burlywood;
+    border: 2px solid palevioletred;
+    border-radius: 5%; */
+}
+
