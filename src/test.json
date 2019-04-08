@@ -2,10 +2,17 @@
     {
         "type": "questset",
         "id": "qs_1",
+        "rewardId":"qr_32",
+        "difficulty":"55",
         "children": [
             {
                 "type": "quest",
                 "id": "q_1",
+                "title":"title1",
+                "description":"Description 1111",
+                "reward":"qr_31",
+                "questActionType":"Type2",
+                "questAction":"action2",
                 "children": [
                     {
                         "type": "objectivelist",
